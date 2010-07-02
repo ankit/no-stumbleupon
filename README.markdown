@@ -1,1 +1,1 @@
-Redirects a StumbleUpon shared page to its original page link automatically when the page starts loading. Gets rid of the annoying StumbleUpon toolbar.
+A Chrome extension that redirects a StumbleUpon shared page to its original page link when the page starts loading. Gets rid of the annoying StumbleUpon toolbar.

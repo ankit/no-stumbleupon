@@ -1,0 +1,22 @@
+{
+	"name": "No StumbleUpon",
+	"version": "0.1",
+	"description": "Redirects a StumbleUpon shared page (with toolbar on top) to the original page immediately.",
+	"background_page": "background.html",
+	
+	"content_scripts": [
+	{
+		"matches":["http://www.stumbleupon.com/su/*"],
+		
+		"js": [
+			"redirect.js"
+		],
+		
+		"run_at": "document_start",
+		"all_frames": true
+	}],
+	
+	"permissions": [
+		"tabs"
+	]
+}

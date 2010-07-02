@@ -1,0 +1,16 @@
+<html>
+<head>
+	<script type="text/javascript" charset="utf-8">
+			chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
+				if (request.value == "redirect")
+					chrome.tabs.getSelected(null, function(tab){
+						  // TODO: What if it's not http ?
+              chrome.tabs.update(tab.id, { url: "http://" + request.url }, function(){});
+          });
+			});
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,1 @@
+Redirects a StumbleUpon shared page to its original page link automatically when the page starts loading. Gets rid of the annoying StumbleUpon toolbar.
